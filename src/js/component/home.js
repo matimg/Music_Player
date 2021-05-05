@@ -19,6 +19,8 @@ export function Home() {
 			);
 			const data = await res.json();
 			setSongList(data);
+			cancion.current.src =
+				"https://assets.breatheco.de/apis/sound/" + data[0].url;
 		} catch (error) {
 			console.log(error);
 		}
