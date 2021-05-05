@@ -11,14 +11,15 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-/*tr:hover{
-    background-color: gray;
-}*/
 
 table{
-    background-color: black;
+    background-color: #161618;
 }
 
 tr:hover{
-    background-color: #909090;
+    background-color: #505051;
+}
+
+.selected{
+    background-color: #505051;
 }
